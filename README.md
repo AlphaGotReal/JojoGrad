@@ -10,6 +10,21 @@ JojoGrad is a C++ library for automatic differentiation, primarily designed for 
 - Automatic computation of gradients using the backpropagation algorithm.
 - Support for arbitrary computational graphs with multiple inputs and outputs.
 
+## Setup
+
+```zsh
+$ git clone https://github.com/AlphaGotReal/JojoGrad.git
+$ ~cd JojoGrad
+
+# just to compile and run it fresh
+$ rm -rf build/*
+
+$ chmod 777 jomake jorun
+$ ./jomake
+$ ./jorun
+# make your changes to src/main.cpp
+```
+
 ## Usage
 
 To use JojoGrad in your project, follow these steps:
@@ -26,3 +41,4 @@ To use JojoGrad in your project, follow these steps:
 
    std::cout << "Gradient of a: " << a.grad << std::endl;
    std::cout << "Gradient of b: " << b.grad << std::endl;
+
