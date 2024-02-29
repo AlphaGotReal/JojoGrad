@@ -14,7 +14,7 @@ JojoGrad is a C++ library for automatic differentiation, primarily designed for 
 
 ```zsh
 $ git clone https://github.com/AlphaGotReal/JojoGrad.git
-$ ~cd JojoGrad
+$ cd JojoGrad
 
 # just to compile and run it fresh
 $ rm -rf build/*
